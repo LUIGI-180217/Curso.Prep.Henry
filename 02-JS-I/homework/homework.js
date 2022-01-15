@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'nombe';
+const nuevaString = "numero";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 4;
@@ -218,7 +218,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return (lado+lado+lado+lado+' perimetro')
+  return (lado+lado+lado+lado)
 }
 
 
