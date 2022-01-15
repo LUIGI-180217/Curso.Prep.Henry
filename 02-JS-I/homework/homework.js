@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return 'str';
+  return 'str'
   
 }
 
@@ -196,7 +196,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return('luigi'+ 'jaimes')
+  return('luigi'+' jaimes')
   
 }
 
@@ -204,14 +204,14 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return('hola '+ nombre)
+  return('hola '+ nombre+'!')
   
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  return ('su altura es de '+alto+'cm y su ancho es de '+ancho)
+  return (+ alto + ancho/2)
 }
 
 
@@ -233,7 +233,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return(euro=euro*120)
+  return(euro=euro*1.2)
   
 }
 
