@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return 'str'
+  return 'Henry';
   
 }
 
@@ -126,10 +126,10 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num & 2){
-    return false;
+  if (num & 1){
+    return true;
   }
-  return true;
+  return false;
 }
 
 function elevarAlCuadrado(num) {
@@ -164,7 +164,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.floor(num)
+  return Math.ceil(num)
   
 }
 
@@ -182,10 +182,11 @@ function esPositivo(numero) {
   if (numero>=1) {
     return ('Es positivo')
   }
-  else is (numero == 0); {
-   return false;
+  else if(numero <0) {
+   return ('Es negativo')
   }
-  return('Es negativo')
+  return false;
+
 }
 
 
@@ -201,7 +202,9 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return('Huigi'+' jaimes')
+  if (nombre , apellido){
+    return(nombre) +(' ')+(apellido);
+  }
   
 }
 
@@ -216,7 +219,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  return (+ alto * ancho/2)
+  return (+ alto * ancho)
 }
 
 
@@ -230,7 +233,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-return (base*altura/2)
+return (base * altura /2);
 }
 
 
@@ -253,7 +256,7 @@ function esVocal(letra){
     return('Dato incorrecto')
   }
   else if (letra=='a'||letra=='e'||letra=='i'||letra=='o'||letra=='u'){
-    return ('es vocal')
+    return ('Es vocal')
   }
   return ('Dato incorrecto')
 }
