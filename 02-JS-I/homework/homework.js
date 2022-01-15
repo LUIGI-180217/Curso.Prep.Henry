@@ -182,11 +182,12 @@ function esPositivo(numero) {
   if(numero>=1){
     return ('Es positivo')
   }
-  else is (numero ==0){
+  else is (numero ==0)
     return false;
   }
   return('Es negativo')
-}
+  
+
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -253,7 +254,7 @@ function esVocal(letra){
   else if (letra=='a'||letra=='e'||letra=='i'||letra=='o'||letra=='u'){
     return ('es vocal')
   }
-  return ('Dato incorrecto')
+  return ('ato incorrecto')
 }
 
 
